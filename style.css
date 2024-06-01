@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    background: url('https://cdn.wallpapersafari.com/72/58/WLHYwR.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: brown;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 10px black;
+}
+.time{
+    font-size: 3rem;
+}
+.buttons>button{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border-width: 0px;
+    border-radius: 0.3rem;
+    color: wheat;
+}
+.buttons>button:hover{
+    background-color: white;
+    color: brown;
+    transition: linear 2s ease-in;
+    cursor: pointer;
+    font-style: italic;
+}
+
